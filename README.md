@@ -27,7 +27,7 @@ This project is named **SubSurf** and demonstrates how to build a clean, respons
 
 ---
 
-## 📂 Project Structure
+
 
 ## 📂 Project Structure
 
