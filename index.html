@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SubSurf</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span class="logo-text">SubSurf</span>
+        <img src="assets/surfboard.png" alt="" id="logo-img" />
+      </div>
+
+      <nav>
+        <button id="minscreen">☰</button>
+        <ul class="nav-bar" id="nav-bar">
+          <li>Overview</li>
+          <li>Examples</li>
+          <li>Tour</li>
+          <li>Blog</li>
+          <li>Help</li>
+        </ul>
+      </nav>
+
+      <button id="download-btn">Download</button>
+    </header>
+
+    <h1>SubSurf <span class="txt-clr">Tour</span></h1>
+
+    <div class="hero-txt">
+      Build your first Sub learning model in ten minutes. No code or
+      expreience required.
+    </div>
+    <br />
+    <br />
+
+    <div class="video-cont">
+      <video src="assets/3578881-hd_1280_720_30fps.mp4" autoplay loop muted></video>
+    </div>
+    <br />
+
+    <h1 class="txt2">Train your app with SubSurf</h1>
+    <button id="download-btn" style="margin-top: 50px; margin-bottom: 50px">
+      Download
+    </button>
+    <br />
+    <hr style="width: 70%; margin-left: 15%" />
+    <br>
+
+    <footer>
+      <div class="footer-cont">
+        <div class="left">
+
+          <div class="logo">
+            <h4 class="">SubSurf</h4>
+            <img src="assets/surfboard.png" alt="" id="logo-img" />
+          </div>
+          <p>
+                      A product by some person. <br>
+            All rights reserved. <br>© Microsoft
+            2025
+          </p>
+        </div>
+
+        <div class="middle-cont">
+          <div class="abt-cont">
+            <h4>About</h4>
+            <ul>
+              <li>Download</li>
+              <li>Overview</li>
+              <li>Examples</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+
+          <div class="gen-cont">
+            <h4>General</h4>
+            <ul>
+                <li>Notice</li>
+                <li>License</li>
+                <li>Press Enquiry</li>
+                <li>Press Images</li>
+            </ul>
+          </div>
+
+          <div class="res-cont">
+            <h4>Resources</h4>
+            <ul>
+                <li>Help</li>
+                <li>Tour</li>
+                <li>Contact</li>
+                <li>Privacy</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="social">
+         <a href="#"><img src="assets/instagram.png" alt="Twitter"></a>
+        <a href="#"><img src="assets/linkedin.png" alt="Facebook"></a>
+        <a href="#"><img src="assets/youtube.png" alt="YouTube"></a>
+
+        </div>
+
+
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.getElementById("minscreen");
+        const navlinks = document.getElementById("nav-bar");
+
+        hamburger.addEventListener("click", () => {
+          navlinks.classList.toggle("show");
+
+          if (hamburger.innerText === "☰") {
+            hamburger.innerText = "✕";
+          } else {
+            hamburger.innerText = "☰";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
