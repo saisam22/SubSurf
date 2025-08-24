@@ -29,12 +29,16 @@ This project is named **SubSurf** and demonstrates how to build a clean, respons
 
 ## 📂 Project Structure
 
-SubSurf
+## 📂 Project Structure
+
+```text
+SubSurf/
 │
-├── index.html # Main HTML page
-├── style.css # Stylesheet for the project
-├── /assets # Images, icons, and videos
-│ ├── logo.png
-│ ├── demo-video.mp4
-│ └── ...
-└── README.md
+├── index.html       # Main HTML page
+├── style.css        # Stylesheet for the project
+├── assets/          # Images, icons, and videos
+│   ├── logo.png
+│   ├── demo-video.mp4
+│   └── ...
+└── README.md        # Project documentation
+
