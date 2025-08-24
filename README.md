@@ -26,6 +26,7 @@ This project is named **SubSurf** and demonstrates how to build a clean, respons
 - **JavaScript (Vanilla)** → Navbar toggle animation for mobile view  
 
 ---
+Used logos from flaticons
 
 
 
